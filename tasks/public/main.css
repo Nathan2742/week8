@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Klee+One:wght@600&family=Lilita+One&family=Secular+One&display=swap');
+
+body {
+    background-image: url('images/drumkit.jfif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#heading{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-size: 70px;
+}
+
+.keys{
+    color: white;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.key{
+    border: .4rem solid rgb(255, 255, 255);
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.532);
+    cursor: pointer;
+}
+
+/* .keydown{
+    transform: scale(1.1);
+    border-color: blueviolet;
+    box-shadow: 0 0 1rem blueviolet;
+} */
+
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+
+/* .sound{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: aliceblue;
+} */
